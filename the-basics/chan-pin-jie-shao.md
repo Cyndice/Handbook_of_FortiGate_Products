@@ -1,11 +1,155 @@
-# Collections
+# 产品介绍
 
-## A place to group your spaces
+产品介绍部分需要确认相关FortiGate对应的产品信息
 
-A collection in GitBook is kind of like a folder for your spaces or other collections. When you create a collection, you'll get a kind of ‘tree’ view in your sidebar.
+一、产品介绍：
 
-This makes it super easy to collect all your content into logical groups and can have a big impact on your GitBook experience!
+FortiGate是全新的下一代防火墙，在整个硬件架构和系统上面都有新的设计，在性能和功能上面都有了很大提升，具有性能高、接口丰富、功能齐全、安全路由交换一体化、性价比高等优势。
 
-## Going further with collections
+FortiGate全新下一代防火墙是面向云计算、数据中心和园区及企业网出口用户开发的新一代高性能防火墙设备。它的功能特性如下：
 
-We're just touching on the basics here, but if you want to get extra fancy, collections can actually be published and have their very own set of permissions! Feel free to go explore, but for now, let's have a peek at the GitBook editor.
+1、采用多核cpu+芯片结构，内置cp芯片和np芯片，cp芯片用于处理内容检测加速，np芯片用于处理网络层数据转发，具有很高的数据转发性能，大小包线速，最高可达80G吞吐；
+
+2、具有稳定的防火墙功能，同时具备全面安全防护功能，入侵防御、反病毒、反垃圾邮件、web过滤、敏感数据防泄漏等；
+
+3、支持基于用户，五元组、应用层的安全的访问控制；
+
+4、支持GRE、L2TP、IPSec和SSL等多种VPN业务，可以构建多种形式的VPN；
+
+5、提供强大的路由能力，静态/RIP/OSPF/BGP路由、及策略路由，路由负载均衡；
+
+6、高可靠性，支持vrrp、同时支持更高靠性的HA技术，可实现连接状态的同步，支持主-主模式，主备模式；支持多心跳冗余，同时可以利用通讯线路做后备心跳线。充分满足各种环境的可靠性需求；
+
+二、产品布署模式介绍：
+
+FortiGate有四种工作模式：路由模式、透明模式、旁路模式及混合模式。
+
+1、NAT（路由）模式：把设备当作网络出口，充分使用设备的NAT、路由选路、行为控制、VPN等功能的部署方式。如图1；
+
+2、透明模式：当用户网络已具备高性能的网络出口，又想使用NGFW的功能，则可以把NGFW串接在内网核心交换机和网络出口设备之间，用户将不必变更网络拓扑和修改路由，就 可使用NGFW的行为控制、VPN等功能。如图2；
+
+3、旁路模式：当用户网络已具备高性能的网络出口，也不想把设备串接在内网核心交换机和出口设备之间，又想使用NGFW的VPN、DHCP等功能，则可将设备像一台服务器一样旁挂在核心交换机上，如下图3；
+
+4、混合模式（vdom）：指设备同时工作于是路由模式和透明模式，将一个设备分成两个vdom域，一个vdom是透明模式，一个vdom是路由模式，将多个接口划入不同的vdom实现混合模式，如图4；
+
+&#x20;           ![](https://fortinet-public.s3.cn-north-1.amazonaws.com.cn/Handbook\_Of\_FortiGate\_Products/HTML/4b2b0698\_1cfc040f\_0.jpg)                        ![](https://fortinet-public.s3.cn-north-1.amazonaws.com.cn/Handbook\_Of\_FortiGate\_Products/HTML/4b2b0698\_1ce0040e\_0.jpg)                       ![](https://fortinet-public.s3.cn-north-1.amazonaws.com.cn/Handbook\_Of\_FortiGate\_Products/HTML/4b2b0698\_1cf4040f\_0.jpg)      ![](https://fortinet-public.s3.cn-north-1.amazonaws.com.cn/Handbook\_Of\_FortiGate\_Products/HTML/4b2b0698\_1d050411\_0.jpg)
+
+&#x20;                图1                                            图2                                                                图3                                                                     图4
+
+三、产品型号：
+
+FortiGate系列目前共有如下型号：
+
+桌面设备
+
+桌面设备是保护小型办公、远程办公、零售网络的理想的安全部署选择，同时还可以做为客户端设备（CPE）。Fortinet所提供的桌面级的FortiGate网络安全设备同样具有全面的网络与安全功能，保护远程的用户、应用以及数据；远离APT攻击的威胁。
+
+FortiWiFi设备还提供了一个额外的优势，集成了无线功能，即做为无线胖客户端。FortiWiFi设备使您具备整合无线与有线流量的能力，消除潜在的安全盲点、简化了无线网络部署与维护的复杂性。
+
+&#x20;  FortiGate-80E
+
+&#x20;  FortiGate-60E
+
+&#x20;  FortiGate-50E
+
+&#x20;  FortiGate-30E&#x20;
+
+&#x20;  FortiGate-60D\
+
+
+&#x20;  FortiWiFi-50E
+
+&#x20;  FortiWiFi-30D
+
+&#x20;  FortiWiFi-30E
+
+中端型号设备
+
+FortiGate中端型号安全设备是经过用户验证的高性价比的解决方案。Fortinet能够提供同类厂商中最广的产品线与最先进的安全技术，在不断变化的网络环境中，以有限的部署，提供无限的安全防护。
+
+&#x20;  FortiGate-900D系列
+
+&#x20;  FortiGate-800D\
+
+
+&#x20;  FortiGate-600E
+
+&#x20;  FortiGate-500E
+
+&#x20;  FortiGate-400E
+
+&#x20;  FortiGate-300E
+
+&#x20;  FortiGate-200E
+
+&#x20;  FortiGate-100E\
+
+
+&#x20;  FortiGate-100F
+
+高端型号设备
+
+Fortinet业界领先的网络安全平台可提供下一代防火墙安全，同时具有非凡的吞吐量、超低的延迟率与多重威胁防御机制。您可以依赖FortiGate高端设备的扩展性，灵活性，可靠性来实现您网络的需要。
+
+FortiGate-7000系列机架和刀片可对高速服务提供商，数据中心和电信运营商的网络提供优越的性能以及可扩展的灵活性。自带的10-GbE支架和高度灵活ATCA兼容的架构使FortiGate-7000系列可服务于下一代网络苛求的环境以及多租户基于云端的Saas与IaaS。
+
+FortiGate-3000系列设备可对大型企业和服务管理提供商提供高性能且集成NGFW的安全解决方案。基于FortiASIC专有芯片加速、高密度端口以及高度的部署灵活性是这一系列产品的显著特点。
+
+&#x20; **FortiGate-7060E**
+
+&#x20;  FortiGate-7040E
+
+&#x20;  FortiGate-7030E
+
+&#x20;  FortiGate-5001E
+
+&#x20;  FortiGate-6300F
+
+&#x20;  FortiGate-6500F
+
+&#x20;  FortiGate-3980E
+
+&#x20;  FortiGate-3960E
+
+&#x20;  FortiGate-3800D
+
+&#x20;  FortiGate-3700D
+
+&#x20;  FortiGate-3600E
+
+&#x20;  FortiGate-3400E
+
+&#x20;  FortiGate-3200D
+
+&#x20;  FortiGate-3100D
+
+&#x20;  FortiGate-3000D\
+
+
+&#x20;  FortiGate-2500E
+
+&#x20;  FortiGate-2000E
+
+&#x20;  FortiGate-1500D\
+
+
+&#x20;  FortiGate-1200D\
+
+
+&#x20;  FortiGate-1000D
+
+&#x20;  ****  &#x20;
+
+虚拟机
+
+通过FortiGate虚拟机， 可实现虚拟架构下威胁的控制与安全防护，同时还可以避免安全盲区以及满足网络的合规性要求。 FortiGate虚拟机具有如同FortiGate物理设备所具有相同的安全与网络服务，自由灵活的集中管控物理设备与虚拟设备混合部署。
+
+FortiGate-VM00Throughput12 GbpsvCPU       1x vCPU core, (up to) 2 GB RAM\
+FortiGate-VM01, -VM01VThroughput12 GbpsvCPU       1x vCPU core, (up to) 2 GB RAM\
+FortiGate-VM02, -VM02VThroughput15 GbpsvCPU       2x vCPU cores, (up to) 4 GB RAM\
+FortiGate-VM04, -VM04VThroughput28 GbpsvCPU       4x vCPU cores, (up to) 6 GB RAM\
+FortiGate-VM08, -VM08VThroughput33 GbpsvCPU       8x vCPU cores, (up to) 12 GB RAM\
+FortiGate-VM16, -VM16VThroughput36 GbpsvCPU       16x vCPU cores, (up to) 24 GB RAM\
+FortiGate-VM32, -VM32VThroughput50 GbpsvCPU       32x vCPU cores, (up to) 48 GB RAM\
+FortiGate-VMUL, -VMULVvCPU       Unlimited vCPU cores and RAM\
+V Series VMs do not include VDOM licenses by default.  VDOM licenses can be added separately.Actual performance may vary depending on the network and system configuration.Performance metrics were observed using a DELL R740 (CPU Intel Xeon Platinum 8168 2.7 GHz, Intel X710 network adapters), running FOS v5.6.3. Tested with VMware vSphere 6.5 Enterprise Plus. SR-IOV is enabled.
