@@ -1,16 +1,27 @@
-# Summary
+# Table of contents
 
-* [Introduction](README.md)
-* [基本安装](howtouse/README.md)
-   * [Node.js安装](howtouse/nodejsinstall.md)
-   * [Gitbook安装](howtouse/gitbookinstall.md)
-   * [Gitbook命令行速览](howtouse/gitbookcli.md)
-* [图书项目结构](book/README.md)
-   * [README.md 与 SUMMARY编写](book/file.md)
-   * [目录初始化](book/prjinit.md)
-* [图书输出](output/README.md)
-   * [输出为静态网站](output/outfile.md)
-   * [输出PDF](output/pdfandebook.md)
-* [发布](publish/README.md)
-   * [发布到Github Pages](publish/gitpages.md)
-* [结束](end/README.md)
+* [前言](README.md)
+
+## The Basics
+
+* [Spaces](the-basics/spaces.md)
+* [Collections](the-basics/collections.md)
+* [The GitBook editor](the-basics/the-gitbook-editor.md)
+* [Live edit and locked edits](the-basics/live-edit-and-locked-edits.md)
+* [Change requests](the-basics/change-requests.md)
+
+## Publishing
+
+* [Publishing your content](publishing/publishing-your-content.md)
+
+## Tips and tricks
+
+* [Speed up with quick find](tips-and-tricks/speed-up-with-quick-find.md)
+
+## Next steps
+
+* [What next?](next-steps/what-next.md)
+
+## test
+
+* [Page 1](test/page-1.md)
