@@ -1,11 +1,9 @@
 # Table of contents
 
-* [前言](README.md)
-
 ## The Basics
 
-* [Spaces](the-basics/spaces.md)
-* [Collections](the-basics/collections.md)
+* [前言](README.md)
+* [产品介绍](the-basics/chan-pin-jie-shao.md)
 * [The GitBook editor](the-basics/the-gitbook-editor.md)
 * [Live edit and locked edits](the-basics/live-edit-and-locked-edits.md)
 * [Change requests](the-basics/change-requests.md)
