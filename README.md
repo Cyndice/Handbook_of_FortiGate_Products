@@ -1,13 +1,23 @@
-# Spaces
+# 前言
 
-## A space to create
+V5.0.0（基于FortiOS v7.0.X）
 
-Almost everything in GitBook revolves around a **space**. What you're looking at right now is a space (well, technically, it's some words inside a content block inside a page inside a space, but let's not get too fancy) and it's basically a collection of pages.
+PDF格式文档在support.fortinet.com.cn更新链接（可能随时更新到最新，更新相对较慢一点）：
 
-Folks use spaces for all kinds of things. You might want to create API documentation, a design system, a place to document calls and meetings. Whatever it might be, chances are, you'll be using spaces a bunch in GitBook.
+{% embed url="https://support.fortinet.com.cn/index.php?a=show&c=index&catid=30&id=345&m=content" %}
 
-## Publishing and sharing
+HTML格式的在线查看链接（此链接将固定不变，会不定期更新，更新会比较快）：
 
-Spaces can be published to the whole world, or just some of it, or just to a few very specific people. You can also invite folks to collaborate with you on a space if you're on a community, team, or business plan.
+{% embed url="https://fortinet-public.s3.cn-north-1.amazonaws.com.cn/Handbook_Of_FortiGate_Products/HTML/index.html" %}
 
-There's tonnes you can do with Spaces, and you'll definitely figure them out over time, but for now, let's move on to **collections…**
+
+
+| 版本信息                    |                                                                                                          |                |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- | -------------- |
+| Document version v4.0.1 | 初始版本                                                                                                     | March 20, 2019 |
+| Document version v4.1.0 | <p></p><ul><li>新增SD-WAN章节(基于FOS6.2.1的版本编写)<br>新增虚拟接口对章节<br>透明模式章节重新更新</li></ul><p></p><ul><li></li></ul> |                |
+|                         |                                                                                                          |                |
+|                         |                                                                                                          |                |
+|                         |                                                                                                          |                |
+|                         |                                                                                                          |                |
+|                         | <p></p><ul><li></li></ul>                                                                                | Nov 2, 2019    |
